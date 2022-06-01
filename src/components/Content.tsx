@@ -22,10 +22,8 @@ type ContentProps = {
   genreId: number;
 };
 
-export function Content(props: ContentProps) {
+export function Content({ genreId }: ContentProps) {
   const [movies, setMovies] = useState<MovieProps[]>([]);
-
-  const { genreId } = props;
 
   useEffect(() => {
     api.get<MovieProps[]>(`movies/?Genre_id=${genreId}`).then((response) => {
