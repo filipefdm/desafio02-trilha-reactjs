@@ -60,4 +60,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para m
 
 ---
 
-Feito com 💜 por [Filipe Motta](https://gist.github.com/filipefdm) 😊
+Feito com 💜 por [Filipe Motta](https://github.com/filipefdm) 😊
